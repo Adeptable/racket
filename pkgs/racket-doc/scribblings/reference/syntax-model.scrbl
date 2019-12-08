@@ -203,7 +203,7 @@ produce a different answer.
 For example, combining the lexical information from @racket[let] in
 the program above to @racket['x] would not produce an identifier that
 is @racket[free-identifier=?] to either @racket[x], since it does not
-appear in the scope of the @racket[x] binding. Combining the lexical
+appear in the scope of the @racket[let] binding. Combining the lexical
 context of the @racket[6] with @racket['x], in contrast, would produce
 an identifier that is @racket[bound-identifier=?] to both @racket[x]s.
 
